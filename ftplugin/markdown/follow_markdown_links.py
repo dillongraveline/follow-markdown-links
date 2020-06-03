@@ -54,12 +54,11 @@ def follow_link():
     if not link: return
 
     # if not local link then stop
-    text, link = link[0]
+
     if not _is_local_link(link): return
 
     # Support [Text]() cases; Assume Text as link
     # Also assume default extension
-    if not link: link = text
     link = _ensure_extension(link)
 
     # Resolve link (if relative) with relation
