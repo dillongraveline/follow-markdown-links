@@ -49,7 +49,7 @@ def follow_link():
     if not link: return
 
     # extract link text and link url
-    link = re.findall(r'\[\[([^]]*)\]\]', link)
+    link = re.findall(r'^\[\[([^]]*)\]\]$', link)
     if not link: return
 
     # if not local link then stop
