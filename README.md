@@ -26,6 +26,9 @@ Use your plugin manager of choice.
 - [vim-plug](https://github.com/junegunn/vim-plug)
   - Add `Plug 'https://github.com/dillongraveline/follow-markdown-links'` to .vimrc
   - Run `:PlugInstall`
+  
+### Config
+Put `:FollowLink` in your .vimrc
 
 ## Credit
 Credits to prashanthellina for creating this plugin.
