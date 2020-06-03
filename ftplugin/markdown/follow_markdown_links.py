@@ -24,7 +24,7 @@ def _extract_link_under_cursor():
     end_pos = line[col:].rfind("]")
     if end_pos < 0: return
 
-    end_pos += (col)
+    end_pos += (col + 1)
 
     link = line[start_pos:end_pos]
     return link
