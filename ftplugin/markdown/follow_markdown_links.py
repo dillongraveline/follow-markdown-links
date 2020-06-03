@@ -27,6 +27,7 @@ def _extract_link_under_cursor():
     end_pos += (col + 1)
 
     link = line[start_pos:end_pos]
+    print('link')
     return link
 
 def _is_local_link(link):
