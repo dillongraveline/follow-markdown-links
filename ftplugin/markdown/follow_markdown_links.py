@@ -50,7 +50,7 @@ def follow_link():
     if not link: return
 
     # if not local link then stop
-
+    link = link[0]
 
     # Support [Text]() cases; Assume Text as link
     # Also assume default extension
