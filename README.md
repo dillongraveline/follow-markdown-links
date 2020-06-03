@@ -2,7 +2,7 @@
 
 > Modified to work with Obsidian-like link structures.
 
-This vim plugin enables browsing through your markdown files by using links between them (like a personal wiki). You just have to move the cursor to a link and press ENTER.
+This vim plugin enables browsing through your markdown files by using links between them (like a personal wiki). You just have to move the cursor to a link and press SPACE.
 
 Example of links
 
