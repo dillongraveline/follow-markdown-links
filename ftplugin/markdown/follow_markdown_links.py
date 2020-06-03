@@ -30,10 +30,6 @@ def _extract_link_under_cursor():
     print(link)
     return link
 
-def _is_local_link(link):
-    link = urlparse(link)
-    return not link.netloc
-
 def _resolve_link(link):
     buf_path = os.path.dirname(current.buffer.name)
     return os.path.join(buf_path, link)
@@ -55,7 +51,6 @@ def follow_link():
 
     # if not local link then stop
 
-    if not _is_local_link(link): return
 
     # Support [Text]() cases; Assume Text as link
     # Also assume default extension
