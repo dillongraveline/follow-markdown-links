@@ -27,5 +27,9 @@ Use your plugin manager of choice.
   - Add `Plug 'https://github.com/dillongraveline/follow-markdown-links'` to .vimrc
   - Run `:PlugInstall`
 
+## Configuration
+
+Add `autocmd FileType markdown nnoremap <Space> :FollowLink<CR>` to your .vimrc
+
 ## Credit
 Credits to prashanthellina for creating this plugin.
